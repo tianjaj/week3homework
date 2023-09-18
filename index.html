@@ -54,36 +54,24 @@
         </li>-->
     </ul>
 </section>
-<section>
+<section id="partnersSection" style="display: none;">
     <ul id="partners">
-       <li class="partner"><img src="partners/partner-bustour.png" alt="Parnter Bus Tours">
-        </li>
-        <li class="partner"><img src="partners/partner-cabinrental.png" alt="Partner Cabin Rental">
-        </li>
-        <li class="partner"><img src="partners/partner-campingadv.png" alt="Partner Camping Adventure">
-        </li>
-        <li class="partner"><img src="partners/partner-collegetours.png" alt="Partner College Tours">
-        </li>
-        <li class="partner"><img src="partners/partner-rentalbike.png" alt="Partner Bike Rentals">
-        </li>
-        <li class="partner"><img src="partners/partner-tourgroup.png" alt="Partner Tour Group">
-        </li>
+        <li class="partner"><img src="partners/partner-bustour.png" alt="Parnter Bus Tours"></li>
+        <li class="partner"><img src="partners/partner-cabinrental.png" alt="Partner Cabin Rental"></li>
+        <li class="partner"><img src="partners/partner-campingadv.png" alt="Partner Camping Adventure"></li>
+        <li class="partner"><img src="partners/partner-collegetours.png" alt="Partner College Tours"></li>
+        <li class="partner"><img src="partners/partner-rentalbike.png" alt="Partner Bike Rentals"></li>
+        <li class="partner"><img src="partners/partner-tourgroup.png" alt="Partner Tour Group"></li>
     </ul>
 </section>
 <script>
-    // JavaScript to show the pictures when the button is clicked
+    // JavaScript to activate the section and display the pictures
     document.addEventListener("DOMContentLoaded", function () {
-        // Get the button element
-        var showPicturesButton = document.getElementById("showPicturesButton");
+        // Get the section element
+        var partnersSection = document.getElementById("partnersSection");
 
-        // Get the partners list
-        var partnersList = document.getElementById("partners");
-
-        // Add a click event listener to the button
-        showPicturesButton.addEventListener("click", function () {
-            // Show the partners list by changing its display style
-            partnersList.style.display = "block";
-        });
+        // Show the section (make it visible)
+        partnersSection.style.display = "block";
     });
 </script>
     </main>
